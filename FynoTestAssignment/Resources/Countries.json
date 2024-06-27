@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Ukraine",
+        "emoji": "🇺🇦",
+        "coordinate": {
+            "latitude": 48.3794,
+            "longitude": 31.1656
+        },
+        "isVisited": true
+    },
+    {
+        "name": "Mexico",
+        "emoji": "🇲🇽",
+        "coordinate": {
+            "latitude": 23.6345,
+            "longitude": -102.5528
+        },
+        "isVisited": true
+    },
+    {
+        "name": "Chile",
+        "emoji": "🇨🇱",
+        "coordinate": {
+            "latitude": -35.6751,
+            "longitude": -71.5430
+        },
+        "isVisited": true
+    },
+    {
+        "name": "Iceland",
+        "emoji": "🇮🇸",
+        "coordinate": {
+            "latitude": 64.9631,
+            "longitude": -19.0208
+        },
+        "isVisited": true
+    },
+    {
+        "name": "Dominican Republic",
+        "emoji": "🇩🇴",
+        "coordinate": {
+            "latitude": 18.7357,
+            "longitude": -70.1627
+        },
+        "isVisited": true
+    },
+    {
+        "name": "Italy",
+        "emoji": "🇮🇹",
+        "coordinate": {
+            "latitude": 41.8719,
+            "longitude": 12.5674
+        },
+        "isVisited": false
+    },
+    {
+        "name": "Peru",
+        "emoji": "🇵🇪",
+        "coordinate": {
+            "latitude": -9.19,
+            "longitude": -75.0152
+        },
+        "isVisited": false
+    },
+    {
+        "name": "United States of America",
+        "emoji": "🇺🇸",
+        "coordinate": {
+            "latitude": 37.0902,
+            "longitude": -95.7129
+        },
+        "isVisited": false
+    },
+    {
+        "name": "Japan",
+        "emoji": "🇯🇵",
+        "coordinate": {
+            "latitude": 36.2048,
+            "longitude": 138.2529
+        },
+        "isVisited": false
+    },
+    {
+        "name": "Poland",
+        "emoji": "🇵🇱",
+        "coordinate": {
+            "latitude": 51.9194,
+            "longitude": 19.1451
+        },
+        "isVisited": false
+    },
+    {
+        "name": "Czechia",
+        "emoji": "🇨🇿",
+        "coordinate": {
+            "latitude": 49.8175,
+            "longitude": 15.4730
+        },
+        "isVisited": false
+    },
+    {
+        "name": "United Arab Emirates",
+        "emoji": "🇦🇪",
+        "coordinate": {
+            "latitude": 23.4241,
+            "longitude": 53.8478
+        },
+        "isVisited": false
+    },
+    {
+        "name": "France",
+        "emoji": "🇫🇷",
+        "coordinate": {
+            "latitude": 46.6034,
+            "longitude": 1.8883
+        },
+        "isVisited": false
+    }
+]

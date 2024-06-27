@@ -17,7 +17,7 @@ struct SeeMoreButtonStyle: ButtonStyle {
                 .scaledToFit()
                 .frame(width: 24, height: 24)
                 .rotationEffect(Angle(degrees: isShowMore ? 180 : 0))
-                .animation(.easeInOut, value: 0.5)
+                .animation(.easeInOut, value: 0.2)
             
             configuration.label
                 .font(.regularBody)

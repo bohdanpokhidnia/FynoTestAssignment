@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F76BAC2C2C16D5E3003C42CD /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BAC2B2C16D5E3003C42CD /* Font+Extensions.swift */; };
+		F76BAC312C170263003C42CD /* CountryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BAC302C170263003C42CD /* CountryLoader.swift */; };
+		F79907EA2C17061B00BAC0CB /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = F79907E92C17061B00BAC0CB /* Countries.json */; };
+		F79907EC2C17080F00BAC0CB /* DiscoveryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79907EB2C17080F00BAC0CB /* DiscoveryMapView.swift */; };
+		F79907EE2C17091400BAC0CB /* DiscoveryUserPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79907ED2C17091400BAC0CB /* DiscoveryUserPageView.swift */; };
 		F7C7EA932C15D63D00990456 /* FynoTestAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7EA922C15D63D00990456 /* FynoTestAssignmentApp.swift */; };
 		F7C7EA972C15D63F00990456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C7EA962C15D63F00990456 /* Assets.xcassets */; };
 		F7C7EA9A2C15D63F00990456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C7EA992C15D63F00990456 /* Preview Assets.xcassets */; };
@@ -25,10 +29,18 @@
 		F7C7EAC22C160D0900990456 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7EAC12C160D0900990456 /* AppView.swift */; };
 		F7C7EAC42C160DD800990456 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7EAC32C160DD800990456 /* AppFeature.swift */; };
 		F7C7EAC62C16136700990456 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C7EAC52C16136700990456 /* UINavigationController+Extensions.swift */; };
+		F7F19E242C1730BB00EC6DD2 /* CountryItemsListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F19E232C1730BB00EC6DD2 /* CountryItemsListFeature.swift */; };
+		F7F19E272C17491500EC6DD2 /* DiscoveryUserPageFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F19E262C17491500EC6DD2 /* DiscoveryUserPageFeature.swift */; };
+		F7F19E292C17534200EC6DD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F19E282C17534200EC6DD2 /* User.swift */; };
+		F7F19E2C2C175D0C00EC6DD2 /* DiscoveryUserStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F19E2B2C175D0C00EC6DD2 /* DiscoveryUserStatisticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F76BAC2B2C16D5E3003C42CD /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		F76BAC302C170263003C42CD /* CountryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryLoader.swift; sourceTree = "<group>"; };
+		F79907E92C17061B00BAC0CB /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		F79907EB2C17080F00BAC0CB /* DiscoveryMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryMapView.swift; sourceTree = "<group>"; };
+		F79907ED2C17091400BAC0CB /* DiscoveryUserPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryUserPageView.swift; sourceTree = "<group>"; };
 		F7C7EA8F2C15D63D00990456 /* FynoTestAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FynoTestAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C7EA922C15D63D00990456 /* FynoTestAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FynoTestAssignmentApp.swift; sourceTree = "<group>"; };
 		F7C7EA962C15D63F00990456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +58,10 @@
 		F7C7EAC12C160D0900990456 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		F7C7EAC32C160DD800990456 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		F7C7EAC52C16136700990456 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		F7F19E232C1730BB00EC6DD2 /* CountryItemsListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryItemsListFeature.swift; sourceTree = "<group>"; };
+		F7F19E262C17491500EC6DD2 /* DiscoveryUserPageFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryUserPageFeature.swift; sourceTree = "<group>"; };
+		F7F19E282C17534200EC6DD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7F19E2B2C175D0C00EC6DD2 /* DiscoveryUserStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryUserStatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,14 @@
 			path = SwiftUI;
 			sourceTree = "<group>";
 		};
+		F76BAC2F2C170241003C42CD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F76BAC302C170263003C42CD /* CountryLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F7C7EA862C15D63D00990456 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +123,7 @@
 				F7C7EA922C15D63D00990456 /* FynoTestAssignmentApp.swift */,
 				F7C7EAB02C15E04200990456 /* Extensions */,
 				F7C7EAAD2C15D93100990456 /* Models */,
+				F76BAC2F2C170241003C42CD /* Services */,
 				F7C7EABD2C15FECC00990456 /* Modules */,
 				F7C7EAA32C15D70100990456 /* Resources */,
 				F7C7EA982C15D63F00990456 /* Preview Content */,
@@ -118,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				F7C7EAA42C15D71B00990456 /* Views */,
+				F7F19E252C1748E200EC6DD2 /* DiscoveryUserPage */,
+				F7F19E212C17308800EC6DD2 /* CountryItemsList */,
 				F7C7EABE2C15FEDA00990456 /* DiscoveryFeature.swift */,
 				F7C7EAA02C15D6DC00990456 /* DiscoveryView.swift */,
 			);
@@ -127,6 +154,7 @@
 		F7C7EAA32C15D70100990456 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F79907E92C17061B00BAC0CB /* Countries.json */,
 				F7C7EA962C15D63F00990456 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -139,7 +167,7 @@
 				F7C7EAA72C15D73800990456 /* SeeMoreButtonStyle.swift */,
 				F7C7EAB62C15F5F200990456 /* CountryMarkShape.swift */,
 				F7C7EAB82C15F61D00990456 /* CountryMarkView.swift */,
-				F7C7EAA52C15D72200990456 /* CountryItemsListView.swift */,
+				F79907EB2C17080F00BAC0CB /* DiscoveryMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +177,7 @@
 			children = (
 				F7C7EAAB2C15D83300990456 /* CountryEmoji.swift */,
 				F7C7EAAE2C15DA2E00990456 /* Country.swift */,
+				F7F19E282C17534200EC6DD2 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +207,33 @@
 				F7C7EAC12C160D0900990456 /* AppView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F7F19E212C17308800EC6DD2 /* CountryItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				F7F19E232C1730BB00EC6DD2 /* CountryItemsListFeature.swift */,
+				F7C7EAA52C15D72200990456 /* CountryItemsListView.swift */,
+			);
+			path = CountryItemsList;
+			sourceTree = "<group>";
+		};
+		F7F19E252C1748E200EC6DD2 /* DiscoveryUserPage */ = {
+			isa = PBXGroup;
+			children = (
+				F7F19E2A2C175CD200EC6DD2 /* Views */,
+				F7F19E262C17491500EC6DD2 /* DiscoveryUserPageFeature.swift */,
+				F79907ED2C17091400BAC0CB /* DiscoveryUserPageView.swift */,
+			);
+			path = DiscoveryUserPage;
+			sourceTree = "<group>";
+		};
+		F7F19E2A2C175CD200EC6DD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7F19E2B2C175D0C00EC6DD2 /* DiscoveryUserStatisticsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79907EA2C17061B00BAC0CB /* Countries.json in Resources */,
 				F7C7EA9A2C15D63F00990456 /* Preview Assets.xcassets in Resources */,
 				F7C7EA972C15D63F00990456 /* Assets.xcassets in Resources */,
 			);
@@ -256,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79907EC2C17080F00BAC0CB /* DiscoveryMapView.swift in Sources */,
 				F7C7EAAF2C15DA2E00990456 /* Country.swift in Sources */,
 				F7C7EAA82C15D73800990456 /* SeeMoreButtonStyle.swift in Sources */,
 				F7C7EAC42C160DD800990456 /* AppFeature.swift in Sources */,
@@ -263,14 +321,20 @@
 				F7C7EAAA2C15D74E00990456 /* AddCountryButtonStyle.swift in Sources */,
 				F7C7EAB72C15F5F200990456 /* CountryMarkShape.swift in Sources */,
 				F7C7EA932C15D63D00990456 /* FynoTestAssignmentApp.swift in Sources */,
+				F7F19E242C1730BB00EC6DD2 /* CountryItemsListFeature.swift in Sources */,
 				F7C7EAB92C15F61D00990456 /* CountryMarkView.swift in Sources */,
 				F7C7EAA12C15D6DC00990456 /* DiscoveryView.swift in Sources */,
 				F7C7EAC22C160D0900990456 /* AppView.swift in Sources */,
+				F79907EE2C17091400BAC0CB /* DiscoveryUserPageView.swift in Sources */,
 				F7C7EAB22C15E0AC00990456 /* View+Extensions.swift in Sources */,
 				F7C7EAA62C15D72200990456 /* CountryItemsListView.swift in Sources */,
+				F7F19E2C2C175D0C00EC6DD2 /* DiscoveryUserStatisticsView.swift in Sources */,
 				F76BAC2C2C16D5E3003C42CD /* Font+Extensions.swift in Sources */,
+				F76BAC312C170263003C42CD /* CountryLoader.swift in Sources */,
+				F7F19E272C17491500EC6DD2 /* DiscoveryUserPageFeature.swift in Sources */,
 				F7C7EABF2C15FEDA00990456 /* DiscoveryFeature.swift in Sources */,
 				F7C7EAC62C16136700990456 /* UINavigationController+Extensions.swift in Sources */,
+				F7F19E292C17534200EC6DD2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

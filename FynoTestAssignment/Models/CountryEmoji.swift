@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CountryEmoji: String {
+enum CountryEmoji: String, Decodable {
     case chile = "🇨🇱"
     case dominicanRepublic = "🇩🇴"
     case france = "🇫🇷"
